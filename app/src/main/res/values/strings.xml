@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyFirstConstraints</string>
+    <string name="label_rc_login_rocket_chat">Rocket Chat</string>
+    <string name="hint_btn_rc_login_login">Login</string>
+    <string name="label_rc_login_enter_username_password">Enter username and password</string>
+</resources>

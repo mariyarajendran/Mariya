@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:focusedByDefault="false"
+    tools:context=".view.activity.RocketChatLoginActivity">
+
+
+    <TextView
+        android:id="@+id/activity_rc_login_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/label_rc_login_rocket_chat"
+        android:textColor="@color/colorBalck"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/activity_rc_login_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_rc_login_tv_title"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorBalck"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/activity_rc_login_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_rc_login_et_username"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPassword"
+        android:textColor="@color/colorBalck"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/activity_rc_login_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_rc_login_et_password"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorAccent"
+        android:text="@string/hint_btn_rc_login_login"
+        android:textColor="@color/colorWhite" />
+
+
+</RelativeLayout>
