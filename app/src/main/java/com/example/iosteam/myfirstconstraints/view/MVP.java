@@ -20,6 +20,7 @@ public class MVP extends AppCompatActivity implements MVPVolleyContract.VolleyVi
     String stringUrl = "https://api.androidhive.info/contacts/";
     Button mButtonStopService;
     Intent mServiceIntent;
+    String sample="";
 
 
     @Override
