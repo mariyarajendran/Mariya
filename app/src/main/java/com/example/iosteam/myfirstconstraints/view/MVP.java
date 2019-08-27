@@ -21,6 +21,7 @@ public class MVP extends AppCompatActivity implements MVPVolleyContract.VolleyVi
     Button mButtonStopService;
     Intent mServiceIntent;
     String sample="";
+    String manikandan="";
 
 
     @Override
