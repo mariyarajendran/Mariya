@@ -22,8 +22,7 @@ public class MVP extends AppCompatActivity implements MVPVolleyContract.VolleyVi
     Intent mServiceIntent;
     String sample="";
     String manikandan="";
-    
-
+    String mariyaRajendran="";
 
 
     @Override
